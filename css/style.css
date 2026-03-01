@@ -360,13 +360,14 @@ p { font-size: clamp(1rem, 1.1vw, 1.1rem); }
   bottom: 0;
   left: 0;
   right: 0;
-  height: 200px;
+  height: 400px;
   background: linear-gradient(
     to top,
     var(--bg-white) 0%,
-    rgba(255,255,255,0.85) 25%,
-    rgba(255,255,255,0.5) 50%,
-    rgba(255,255,255,0.15) 75%,
+    rgba(255,255,255,0.7) 20%,
+    rgba(255,255,255,0.4) 40%,
+    rgba(255,255,255,0.15) 60%,
+    rgba(255,255,255,0.05) 80%,
     transparent 100%
   );
   pointer-events: none;
