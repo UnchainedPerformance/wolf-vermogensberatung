@@ -371,7 +371,7 @@ p { font-size: clamp(1rem, 1.1vw, 1.1rem); }
     transparent 100%
   );
   pointer-events: none;
-  z-index: 1;
+  z-index: 0;
 }
 .hero__container {
   max-width: var(--container);
@@ -383,6 +383,8 @@ p { font-size: clamp(1rem, 1.1vw, 1.1rem); }
   align-items: center;
   width: 100%;
   padding-top: var(--nav-height);
+  position: relative;
+  z-index: 2;
 }
 .hero__content {
   color: var(--text-light);
