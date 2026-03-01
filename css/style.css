@@ -10,11 +10,12 @@ html { scroll-behavior: smooth; scroll-padding-top: 80px; font-size: 16px; }
 body {
   font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
   color: var(--text-primary);
-  background: var(--bg-white);
+  background: var(--bg-darker);
   line-height: 1.7;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
+  overscroll-behavior-y: none;
 }
 img { max-width: 100%; display: block; }
 a { text-decoration: none; color: inherit; }
