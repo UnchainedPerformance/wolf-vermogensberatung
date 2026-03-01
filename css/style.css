@@ -1375,17 +1375,9 @@ p { font-size: clamp(1rem, 1.1vw, 1.1rem); }
     margin-right: auto;
   }
 
-  /* Process: single column on tablet */
+  /* Process: single column on tablet, hide connecting line */
   .process__steps { grid-template-columns: 1fr; max-width: 480px; margin: 0 auto; }
-  .process__steps::before {
-    top: calc(33.333% + 0.5rem);
-    bottom: calc(33.333% + 0.5rem);
-    left: 50%;
-    right: auto;
-    width: 2px;
-    height: auto;
-    transform: translateX(-50%);
-  }
+  .process__steps::before { display: none; }
 
   .testimonial-card { width: 340px; }
   .partners__item { width: 160px; height: 88px; }
